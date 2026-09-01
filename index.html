@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Information Management System</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+    <div id="header-div">
+        <h1 id="header-text">BOOK INFORMATION MANAGEMENT SYSTEM</h1>
+    </div>
+    <div id="main-div">
+        <div id="input-div">
+            <input type="text" id="book-title" placeholder="Book Title"/>
+            <input type="text" id="book-author" placeholder="Author"/>
+            <input type="text" id="book-isbn" placeholder="ISBN"/><br/>
+            <select id="book-category"></select>
+            <input type="number" id="book-year" placeholder="Year Published"/><br/>
+            <input type="text" id="book-publisher" placeholder="Publisher"/><br/>
+            <button type="button" id="btn-submit">Submit</button><br/><br/>
+        </div>
+        <div id="table-div">
+        </div>
+    </div>
+    <div id="footer-div"></div>
+</body>
+</html>
